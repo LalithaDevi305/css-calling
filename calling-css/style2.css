@@ -1,0 +1,26 @@
+.myDev{
+    color:red;
+}
+#bunny
+{
+    color:#cf4;
+}
+#myDev2{
+    color: rgb(131, 38, 225);
+}
+p
+{
+    color:hsl(280,40%,35%);
+}
+.para1
+{
+    color: hsla(180,30%,60%,1.0);
+}
+.para2
+{
+    color:hsla(102, 70%, 40%,0.5);
+}
+body
+{
+    background-color: aquamarine;
+}
