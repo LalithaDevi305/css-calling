@@ -1,5 +1,3 @@
 https://github.com/LalithaDevi305/HTML.git
 
-https://github.com/LalithaDevi305
-
-https://github.com/LalithaDevi305/css-calling.git
+ https://github.com/LalithaDevi305/css-calling.git

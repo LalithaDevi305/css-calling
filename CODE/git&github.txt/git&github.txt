@@ -1,3 +1,0 @@
-github commands:
-1--git remote origin'link'
-2--git push-u origin main

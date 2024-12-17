@@ -1,0 +1,55 @@
+.img1{
+    filter:invert();
+   clip-path:;
+    height: 200px;
+    transition: all 1s ease;
+}
+.img1:hover{
+    filter: none;
+    clip-path:;
+    transform: translateY(-20px);
+}
+.img2{
+    filter:blur(20px);
+   clip-path:ellipse();
+    height: 200px;
+    transition: all 1s ease;
+}
+.img2:hover{
+    filter: none;
+    clip-path:ellipse();
+    transform:rotateX(-20px);
+}
+.img3{
+    filter:brightness(20px);
+   clip-path:margin-box;
+    height: 200px;
+    transition: all 1s ease;
+}
+.img3:hover{
+    filter: none;
+    clip-path:margin-box;
+    transform: translateX(-20px);
+}
+.img4{
+    filter:hue-rotate();
+   clip-path:circle(100%);
+    height: 200px;
+    transition: all 1s ease;
+}
+.img4:hover{
+    filter:hue-rotate();
+    clip-path:circle(100%);
+    transform: translateY(-20px);
+}
+.img5{
+    filter:invert();
+   clip-path:polygon(50% 0%, 40% 48%, 100% 60%, 60% 79%, 25% 100%, 0% 60%, 10% 20%);
+    height: 200px;
+    transition: all 1s ease;
+}
+.img5:hover{
+    filter: none;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    transform: translateX(-20px);
+}

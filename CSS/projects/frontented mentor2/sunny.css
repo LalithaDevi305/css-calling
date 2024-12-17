@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(22, 158, 208);
+    height:100vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.mainDev{
+    text-align: top left;
+    color: white;
+}
+.div{
+    
+}

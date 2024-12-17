@@ -1,0 +1,71 @@
+.para{
+    color: black;
+}
+.para::first-line{
+    color: rgb(189, 98, 98);
+}
+.para::first-letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+}
+.para::before{
+    bottom:0cqmax ;
+}
+::after{
+    top:right;
+}
+::placeholder{
+    quotes:"";
+}
+#myDev
+{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+/*#myDev:hover
+{
+background-color: pink;
+}
+input:optional{
+    border-color: black;
+    border:1px solid red;
+}
+input:read-write{
+background-color:pink;
+}
+input:enabled{
+    background-color:white;
+}*/
+a.link{
+    color: aqua;
+}
+a:active{
+    color: yellow;
+}
+a:visited{
+    color:blueviolet;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.chaild:nth-child(odd){
+    background-color:yellow;
+}
+.child:nth-child(even){
+    background-color: brown;
+}
+.child:nth-child(even):hover{
+    background-color: yellow;
+}
+.child:not(child:last-child)
+{
+    background-color: black;
+}

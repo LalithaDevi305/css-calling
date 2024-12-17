@@ -1,0 +1,50 @@
+body{
+    font-size: 32px;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(13, 12, 13);
+    text-decoration:underline;
+}
+.p{
+    text-align: left;
+    font-size: 24px;
+}
+img
+{
+    height: 200px;
+}
+figure
+{
+    border: 1px solid black;
+    padding:20px ;
+    box-sizing: border-box;
+}  
+.img1
+{
+    float: left;
+}
+.img2
+{
+    float:right;
+}
+.para{
+    clear:both
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin: 10px;
+    display: inline-block;
+}
+.banner{
+    height: 100%;
+    width=100px;
+    padding: 50px;
+    text-align:left;
+    text-size-adjust: 24px;
+    box-sizing: content-box;
+}
+

@@ -1,0 +1,28 @@
+body
+{
+    background-color: rgb(8, 190, 35);
+    width:100vw;
+}
+.box
+{
+    box-sizing: border-box;
+    width: 40vw;
+    background-color :rgb(10, 231, 231);
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    padding: 50px;
+}
+.box>img
+{
+    height: 200px;
+}
+.heading1
+{
+    width: fit-content;
+    border:3px solid palevioletred;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin:auto;
+    padding: 30px 20px 20px 50px;
+}

@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    box-sizing: border-box;
+    font-size: 48px;
+    color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+}
+/*.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 10s linear;
+    margin:10px;
+}*/
+parent{
+    transition: all 10s ease-in;
+}
+.parent:hover{
+    transform: translatex(200px);
+{
+.img{
+
+}
+.img:hover{
+    transform: rotate(180deg);
+    transform: scale(1.5);
+    transform: skew(20deg);
+    transform: translatex();
+
+}
