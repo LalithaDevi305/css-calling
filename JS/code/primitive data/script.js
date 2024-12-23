@@ -34,3 +34,12 @@ console.log(s.length) //6
 console.log(s.charAt(1))
 console.log(s.indexOf('a')); //2
 console.log(s.lastIndexOf('a')) //4
+console.log(s.slice(2))
+let s1="     javascript      "
+console.log(s1.trim(2,5))
+console.log(s1.trimEnd(2))
+console.log(s1.trimStart(5))
+console.log(s1.split(''))
+console.log(s.split(''))
+console.log(s1.endsWith('d'))
+console.log(s.startsWith('p'))
