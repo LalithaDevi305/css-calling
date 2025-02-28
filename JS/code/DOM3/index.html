@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            background-color: rgb(247, 252, 249);
+        }
+        .soup{
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            transition: all 1s ease;
+            box-shadow: 2px 3px 10px rgb(172, 51, 3);
+        }
+        .soup:hover{
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- <button onclick="createPara()">click me</button> -->
+     <h1 style="text-align: center;">SOUP LIST</h1>
+    <div id="box">
+
+    </div>
+   <script src="./script.js"></script> 
+</body>
+</html>
